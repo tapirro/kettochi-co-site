@@ -1,0 +1,32 @@
+{
+  "berberina": {
+    "local_path": "assets/img/content/berberina.jpg",
+    "attribution_html": "Foto: Robert Flogaus-Faust / <a href=\"https://commons.wikimedia.org/wiki/File%3ABerberis_vulgaris_2_RF.jpg\" rel=\"nofollow\">Wikimedia Commons</a> / <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"nofollow\">CC BY 4.0</a>",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3ABerberis_vulgaris_2_RF.jpg",
+    "license": "CC BY 4.0"
+  },
+  "canela-ceilan": {
+    "local_path": "assets/img/content/canela-ceilan.jpg",
+    "attribution_html": "Foto: Luc Viatour / <a href=\"https://commons.wikimedia.org/wiki/File%3ACanelle_Cinnamomum_burmanni_Luc_Viatour.jpg\" rel=\"nofollow\">Wikimedia Commons</a> / <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"nofollow\">CC BY-SA 3.0</a>",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3ACanelle_Cinnamomum_burmanni_Luc_Viatour.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  "gymnema-sylvestre": {
+    "local_path": "assets/img/content/gymnema-sylvestre.jpg",
+    "attribution_html": "Foto: Vinayaraj / <a href=\"https://commons.wikimedia.org/wiki/File%3AGymnema_sylvestre_beans.jpg\" rel=\"nofollow\">Wikimedia Commons</a> / <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"nofollow\">CC BY-SA 3.0</a>",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AGymnema_sylvestre_beans.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  "prediabetes": {
+    "local_path": "assets/img/content/prediabetes.jpg",
+    "attribution_html": "Foto: Ofek Abuhazira / <a href=\"https://commons.wikimedia.org/wiki/File%3ADiabetes_health_cheack.jpg\" rel=\"nofollow\">Wikimedia Commons</a> / <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"nofollow\">CC BY-SA 4.0</a>",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3ADiabetes_health_cheack.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  "resistencia-insulina": {
+    "local_path": "assets/img/content/resistencia-insulina.jpg",
+    "attribution_html": "Foto: Insulin_glucose_metabolism_bg.jpg: *Insulin_glucose_metabolism_ZP.svg: Original uploader was XcepticZP at en.wikipedia\nderivative work: Gabby8228 (talk)\nderivative work: Gabby8228 (talk) / <a href=\"https://commons.wikimedia.org/wiki/File%3AInsulin_glucose_metabolism_bg.png\" rel=\"nofollow\">Wikimedia Commons</a>",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AInsulin_glucose_metabolism_bg.png",
+    "license": "Public domain"
+  }
+}
