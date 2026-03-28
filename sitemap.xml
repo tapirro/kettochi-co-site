@@ -1,50 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://kettochi.co/</loc><lastmod>2026-03-22</lastmod><priority>1.0</priority></url>
-  <url><loc>https://kettochi.co/ingredientes/berberina/</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://kettochi.co/ingredientes/canela-ceilan/</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://kettochi.co/ingredientes/gymnema-sylvestre/</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://kettochi.co/ingredientes/</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kettochi.co/condiciones/prediabetes/</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://kettochi.co/condiciones/resistencia-insulina/</loc><lastmod>2026-03-22</lastmod><priority>0.7</priority></url>
-  <url><loc>https://kettochi.co/condiciones/</loc><lastmod>2026-03-22</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kettochi.co/que-contiene/</loc><lastmod>2026-03-26</lastmod><priority>0.9</priority></url>
-  <url><loc>https://kettochi.co/efectos-secundarios/</loc><lastmod>2026-03-26</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kettochi.co/opiniones/</loc><lastmod>2026-03-26</lastmod><priority>0.8</priority></url>
   <url>
-    <loc>https://kettochi.co/berberina-diabetes/</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kettochi.co/canela-glucosa/</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kettochi.co/cromo-picolinato-beneficios/</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kettochi.co/para-que-sirve/</loc>
+    <loc>https://kettochi.co/</loc>
     <lastmod>2026-03-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://kettochi.co/como-se-toma/</loc>
     <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/prediabetes/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/resistencia-insulina/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingredientes/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingredientes/berberina/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingredientes/canela-ceilan/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingredientes/gymnema-sylvestre/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-que-sirve/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://kettochi.co/precio-colombia/</loc>
     <lastmod>2026-03-27</lastmod>
+    <priority>0.6</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/berberina-diabetes/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/canela-glucosa/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/cromo-picolinato-beneficios/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/efectos-secundarios/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/opiniones/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/que-contiene/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
