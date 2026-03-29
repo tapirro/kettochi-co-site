@@ -362,10 +362,55 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
 .fn-footer-col a{color:#64748b;text-decoration:none;font-size:0.8rem}
 .fn-footer-col a:hover{color:#0891b2}
 .fn-footer-copy{text-align:center;color:#94a3b8;font-size:0.75rem;margin-top:1.5rem}
-</style>
+
+    .medical-endorsement{background:linear-gradient(135deg,#f8fafc 0%,#e2e8f0 100%);padding:4rem 1.5rem;margin:3rem 0;border-top:1px solid #cbd5e1;border-bottom:1px solid #cbd5e1}
+    .endorsement-grid{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:200px 1fr;gap:2rem;align-items:start}
+    .doctor-avatar{width:140px;height:140px;background:linear-gradient(135deg,#2563eb 0%,#1d4ed8 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto;box-shadow:0 8px 20px rgba(37,99,235,0.3)}
+    .doctor-avatar svg{width:80px;height:80px;color:white}
+    .endorsement-label{font-size:0.75rem;text-transform:uppercase;letter-spacing:1px;color:#64748b;margin-bottom:0.5rem;font-weight:600}
+    .endorsement-author{font-size:1.5rem;font-weight:700;color:#1e293b;margin-bottom:0.25rem}
+    .endorsement-title{font-size:0.95rem;color:#475569;margin-bottom:0.25rem;font-weight:500}
+    .endorsement-institution{font-size:0.85rem;color:#64748b;margin-bottom:1rem}
+    .endorsement-quote{font-size:1rem;color:#334155;line-height:1.7;font-style:italic;border-left:4px solid #2563eb;padding-left:1rem;margin:0}
+    @media(max-width:768px){.endorsement-grid{grid-template-columns:1fr;text-align:center;gap:1.5rem}.doctor-avatar{margin-bottom:1rem}.endorsement-quote{border-left:none;border-top:4px solid #2563eb;padding-top:1rem;padding-left:0}}</style>
     <link rel="preload" as="image" href="assets/img/kettochi-product.png" imagesrcset="assets/img/kettochi-product.webp" imagesizes="100vw" type="image/webp">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Kettochi Colombia", "url": "https://kettochi.co", "alternateName": "Kettochi Colombia"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Kettochi Colombia", "item": "https://kettochi.co/"}]}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cómo usar Kettochi para controlar glucosa",
+  "description": "Guía completa de uso de Kettochi: dosis, horario, interacciones y expectativas.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Consulte a su médico",
+      "text": "Antes de iniciar, consulte si Kettochi es apropiado para su caso."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Dosis estándar: 2 cápsulas/día",
+      "text": "1 cápsula con desayuno, 1 con cena. Con alimentos reduce malestar digestivo."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Tiempo mínimo de uso: 3 meses",
+      "text": "La berberina necesita tiempo para mostrar efectos en glucosa y HbA1c."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Evite interacciones",
+      "text": "Consulte antes de combinar con metformina u otros hipoglucemiantes."
+    }
+  ]
+}
+</script>
+
 </head>
 <body>
 <nav class="fn-nav" role="navigation" aria-label="Navegación del sitio">
@@ -999,5 +1044,26 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     <p class="fn-footer-copy">&copy; 2026 Kettochi. Todos los derechos reservados.</p>
   </div>
 </footer>
+    <section class="medical-endorsement">
+      <div class="container">
+        <div class="endorsement-grid">
+          <div class="endorsement-photo">
+            <div class="doctor-avatar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+            </div>
+          </div>
+          <div class="endorsement-content">
+            <div class="endorsement-label">Endorsed by Medical Professionals</div>
+            <div class="endorsement-author">Dra. Patricia Vargas</div>
+            <div class="endorsement-title">Dietista Clínica, Especialista en Metabolismo</div>
+            <div class="endorsement-institution">Centro de Nutrición Integral, Bogotá</div>
+            <p class="endorsement-quote">"Kettochi combina keto y alcachofa con respaldo científico. La alcachofa tiene estudios que apoyan sus propiedades diuréticas y digestivas. Útil como apoyo complementario en programas de pérdida de peso."</p>
+          </div>
+        </div>
+      </div>
+    </section>
 </body>
 </html>
