@@ -909,7 +909,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var sid='s_'+Date.now()+'_'+Math.random().toString(36).substr(2,6);
       var visId=(function(){try{var v=localStorage.getItem('hs_vid');if(!v){v='v_'+Date.now()+'_'+Math.random().toString(36).substr(2,8);localStorage.setItem('hs_vid',v)}return v}catch(e){return 'v_'+Date.now()}})();
       var vn=(function(){try{var n=parseInt(localStorage.getItem('hs_vn')||'0')+1;localStorage.setItem('hs_vn',String(n));return n}catch(e){return 1}})();
-      var embedV=22;
+      var embedV=23;
       var ua=navigator.userAgent||'';
       var ref=document.referrer||'';
       var sw=screen.width||0;
@@ -967,8 +967,10 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var engaged={};
       var engageCount=0;
       var formShown=false;
+      var formDismissed=false;
       var hasPlayed=false;
       var hasUnmuted=false;
+      var playStartTime=0;
       function track(evt,vid,src,extra){
         var data={event:evt,video:vid,site:location.hostname,source:src,ts:Date.now(),embed_v:embedV,session_id:sid,visitor_id:visId,visit_number:vn,ua:ua,ref:ref,sw:sw};
         if(extra)for(var k in extra)data[k]=extra[k];
@@ -983,13 +985,29 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         var f=document.getElementById('embed-lead-form');
         if(f){f.style.display='block';setTimeout(function(){f.style.transform='translate(-50%,0)'},50)}
         var cl=document.getElementById('embed-lead-close');
-        if(cl){
-          cl.style.opacity='1';
-          cl.addEventListener('click',function(){f.style.transform='translate(-50%,120%)';setTimeout(function(){f.style.display='none'},400);track('form_dismissed','',location.hostname)});
+        if(cl&&!cl._bound){
+          cl._bound=true;
+          cl.addEventListener('click',function(){
+            f.style.transform='translate(-50%,120%)';
+            setTimeout(function(){f.style.display='none'},400);
+            formDismissed=true;
+            track('form_dismissed','',location.hostname);
+            setTimeout(function(){formShown=false},30000);
+          });
         }
         var skip=document.getElementById('embed-lead-skip');
-        if(skip)skip.addEventListener('click',function(e){e.preventDefault();f.style.transform='translate(-50%,120%)';setTimeout(function(){f.style.display='none'},400);track('form_dismissed','skip',location.hostname)});
-        track('form_show','',location.hostname);
+        if(skip&&!skip._bound){
+          skip._bound=true;
+          skip.addEventListener('click',function(e){
+            e.preventDefault();
+            f.style.transform='translate(-50%,120%)';
+            setTimeout(function(){f.style.display='none'},400);
+            formDismissed=true;
+            track('form_dismissed','skip',location.hostname);
+            setTimeout(function(){formShown=false},30000);
+          });
+        }
+        track('form_show',formDismissed?'reshow':'',location.hostname);
       }
       var io=new IntersectionObserver(function(entries){
         entries.forEach(function(e){
@@ -1023,12 +1041,16 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
             engaged[vid]=1;
             engageCount++;
             hasPlayed=true;
+            if(!playStartTime)playStartTime=Date.now();
             track('play',vid,v.getAttribute('data-src'));
             }
           }
         });
         v.addEventListener('ended',function(){
           if(hasPlayed)showLeadForm();
+        });
+        v.addEventListener('timeupdate',function(){
+          if(hasPlayed&&playStartTime&&(Date.now()-playStartTime)>8000)showLeadForm();
         });
       });
       // Lead form submission
@@ -1196,6 +1218,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "¿Azúcar alta? Tu cuerpo te está avisando", "description": "Video informativo sobre Kettochi - ¿Azúcar alta? Tu cuerpo te está avisando", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/104_hero_kettochi_c265.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/104_hero_kettochi_c265.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "Lo que no sabías sobre el azúcar en sangre", "description": "Video informativo sobre Kettochi - Lo que no sabías sobre el azúcar en sangre", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/97_curiosity_gap_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/97_curiosity_gap_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "¿Azúcar alta? Esto te interesa", "description": "Video informativo sobre Kettochi - ¿Azúcar alta? Esto te interesa", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/50_question_education_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/50_question_education_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "Solución natural para tu azúcar", "description": "Video informativo sobre Kettochi - Solución natural para tu azúcar", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/37_doctor_says_problem_solution_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/37_doctor_says_problem_solution_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "Mitos sobre la diabetes que debes conocer", "description": "Video informativo sobre Kettochi - Mitos sobre la diabetes que debes conocer", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/62_myth_bust_myth_debunk_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/62_myth_bust_myth_debunk_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "Cambios reales con hábitos saludables", "description": "Video informativo sobre Kettochi - Cambios reales con hábitos saludables", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/69_before_after_transformation_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/69_before_after_transformation_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "Esto sí, esto no: azúcar en sangre", "description": "Video informativo sobre Kettochi - Esto sí, esto no: azúcar en sangre", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/74_this_not_that_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/74_this_not_that_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "El secreto que tu páncreas necesita", "description": "Video informativo sobre Kettochi - El secreto que tu páncreas necesita", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/70_curiosity_gap_education_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/70_curiosity_gap_education_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
