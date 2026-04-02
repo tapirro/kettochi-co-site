@@ -935,6 +935,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         btn.textContent='Enviando...';btn.disabled=true;
         var tld=location.hostname.split('.').pop();
         var country=tld==='pe'?'Peru':tld==='co'?'Colombia':tld==='com'?'LATAM':'';
+        track('form_submitted',phone.replace(/\d/g,'*'),location.hostname);
         postJSON('/api/leads',{
           name:'Embed lead',phone:phone,email:'',country:country,
           product:'Kettochi',
@@ -990,6 +991,8 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "Lo que no sabías sobre el azúcar en sangre", "description": "Video informativo sobre Kettochi - Lo que no sabías sobre el azúcar en sangre", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/97_curiosity_gap_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/97_curiosity_gap_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "¿Azúcar alta? Esto te interesa", "description": "Video informativo sobre Kettochi - ¿Azúcar alta? Esto te interesa", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/50_question_education_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/50_question_education_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "Solución natural para tu azúcar", "description": "Video informativo sobre Kettochi - Solución natural para tu azúcar", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/37_doctor_says_problem_solution_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/37_doctor_says_problem_solution_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}, {"@type": "VideoObject", "name": "Mitos sobre la glucosa", "description": "Video informativo sobre Kettochi - Mitos sobre la glucosa", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/62_myth_bust_myth_debunk_kettochi.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/62_myth_bust_myth_debunk_kettochi.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://kettochi.co/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
+      
       
       
       
