@@ -914,7 +914,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var sid='s_'+Date.now()+'_'+Math.random().toString(36).substr(2,6);
       var visId=(function(){try{var v=localStorage.getItem('hs_vid');if(!v){v='v_'+Date.now()+'_'+Math.random().toString(36).substr(2,8);localStorage.setItem('hs_vid',v)}return v}catch(e){return 'v_'+Date.now()}})();
       var vn=(function(){try{var n=parseInt(localStorage.getItem('hs_vn')||'0')+1;localStorage.setItem('hs_vn',String(n));return n}catch(e){return 1}})();
-      var embedV=28;
+      var embedV=29;
       var ua=navigator.userAgent||'';
       var ref=document.referrer||'';
       var sw=screen.width||0;
@@ -1070,7 +1070,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
           if(hasPlayed)showLeadForm();
         });
         v.addEventListener('timeupdate',function(){
-          if(hasPlayed&&playStartTime&&(Date.now()-playStartTime)>8000)showLeadForm();
+          if(hasPlayed&&playStartTime&&(Date.now()-playStartTime)>5000)showLeadForm();
         });
       });
       // Lead form submission
@@ -1193,6 +1193,8 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         },{threshold:0});
         scrollObs.observe(section);
       }
+      // Page-time trigger: show form after 20s if user has interacted (even without video click)
+      setTimeout(function(){if(hadInteraction&&!formShown)showLeadForm()},20000);
       // Floating video CTA — draws attention to video section when it's below the fold
       // Appears after 5s, pulses, scrolls to videos on tap, hides when section is visible
       if(section){
@@ -1237,6 +1239,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Cómo controlar el azúcar en sangre de forma natural?", "acceptedAnswer": {"@type": "Answer", "text": "Tres hábitos clave: canela en ayunas (media cucharadita en agua tibia mejora la sensibilidad a la insulina), caminar 15 minutos después de comer (reduce picos de glucosa hasta 30%), y vinagre de manzana antes de la comida principal."}}, {"@type": "Question", "name": "¿Qué alimentos ayudan a bajar el azúcar?", "acceptedAnswer": {"@type": "Answer", "text": "La canela, el vinagre de manzana, las legumbres, verduras de hoja verde y frutos secos ayudan a regular la glucosa. Evita azúcares refinados y harinas blancas. Combina carbohidratos con proteína o grasa para reducir picos."}}, {"@type": "Question", "name": "¿Cuáles son los síntomas de azúcar alta en la sangre?", "acceptedAnswer": {"@type": "Answer", "text": "Los síntomas más comunes son: sed excesiva, ganas frecuentes de orinar, visión borrosa, cansancio sin razón, heridas que tardan en sanar, y hormigueo en manos o pies. Si tienes 2 o más síntomas, consulta a tu médico."}}, {"@type": "Question", "name": "¿Qué frutas puede comer un diabético?", "acceptedAnswer": {"@type": "Answer", "text": "Las mejores frutas son: manzana verde, pera, fresas, arándanos y toronja — tienen bajo índice glucémico. Evita mango, banano maduro y uvas en exceso. Siempre combina la fruta con proteína (yogur, nueces) para evitar picos de glucosa."}}, {"@type": "Question", "name": "¿El azúcar alta se puede revertir naturalmente?", "acceptedAnswer": {"@type": "Answer", "text": "En muchos casos de prediabetes y diabetes tipo 2 temprana, sí es posible con cambios de estilo de vida: reducir carbohidratos refinados, hacer 30 min de ejercicio diario, perder 5-10% del peso corporal y dormir 7-8 horas. Siempre bajo supervisión médica."}}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
