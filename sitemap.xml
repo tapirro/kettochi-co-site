@@ -1,10 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+           xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://kettochi.co/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-02</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
+      <!-- hilart-shorts-video-sitemap -->
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/104_hero_kettochi_c265.jpg</video:thumbnail_loc>
+      <video:title>¿Azúcar alta? Tu cuerpo te está avisando</video:title>
+      <video:description>Video informativo sobre Kettochi - ¿Azúcar alta? Tu cuerpo te está avisando</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/104_hero_kettochi_c265.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/97_curiosity_gap_kettochi.jpg</video:thumbnail_loc>
+      <video:title>Lo que no sabías sobre el azúcar en sangre</video:title>
+      <video:description>Video informativo sobre Kettochi - Lo que no sabías sobre el azúcar en sangre</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/97_curiosity_gap_kettochi.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/50_question_education_kettochi.jpg</video:thumbnail_loc>
+      <video:title>¿Azúcar alta? Esto te interesa</video:title>
+      <video:description>Video informativo sobre Kettochi - ¿Azúcar alta? Esto te interesa</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/50_question_education_kettochi.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/37_doctor_says_problem_solution_kettochi.jpg</video:thumbnail_loc>
+      <video:title>Solución natural para tu azúcar</video:title>
+      <video:description>Video informativo sobre Kettochi - Solución natural para tu azúcar</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/37_doctor_says_problem_solution_kettochi.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/62_myth_bust_myth_debunk_kettochi.jpg</video:thumbnail_loc>
+      <video:title>Mitos sobre la diabetes que debes conocer</video:title>
+      <video:description>Video informativo sobre Kettochi - Mitos sobre la diabetes que debes conocer</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/62_myth_bust_myth_debunk_kettochi.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/69_before_after_transformation_kettochi.jpg</video:thumbnail_loc>
+      <video:title>Cambios reales con hábitos saludables</video:title>
+      <video:description>Video informativo sobre Kettochi - Cambios reales con hábitos saludables</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/69_before_after_transformation_kettochi.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/74_this_not_that_kettochi.jpg</video:thumbnail_loc>
+      <video:title>Esto sí, esto no: azúcar en sangre</video:title>
+      <video:description>Video informativo sobre Kettochi - Esto sí, esto no: azúcar en sangre</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/74_this_not_that_kettochi.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/70_curiosity_gap_education_kettochi.jpg</video:thumbnail_loc>
+      <video:title>El secreto que tu páncreas necesita</video:title>
+      <video:description>Video informativo sobre Kettochi - El secreto que tu páncreas necesita</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/70_curiosity_gap_education_kettochi.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://kettochi.co/como-se-toma/</loc>
