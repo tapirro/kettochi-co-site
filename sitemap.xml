@@ -1,84 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-           xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kettochi.co/</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
-      <!-- hilart-shorts-video-sitemap -->
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/120_hero_kettochi_c325.jpg</video:thumbnail_loc>
-      <video:title>¿Azúcar alta? Tu cuerpo te está avisando</video:title>
-      <video:description>Video informativo sobre Kettochi - ¿Azúcar alta? Tu cuerpo te está avisando</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/120_hero_kettochi_c325.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/97_curiosity_gap_kettochi.jpg</video:thumbnail_loc>
-      <video:title>Lo que no sabías sobre el azúcar en sangre</video:title>
-      <video:description>Video informativo sobre Kettochi - Lo que no sabías sobre el azúcar en sangre</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/97_curiosity_gap_kettochi.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/50_question_education_kettochi.jpg</video:thumbnail_loc>
-      <video:title>¿Azúcar alta? Esto te interesa</video:title>
-      <video:description>Video informativo sobre Kettochi - ¿Azúcar alta? Esto te interesa</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/50_question_education_kettochi.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/37_doctor_says_problem_solution_kettochi.jpg</video:thumbnail_loc>
-      <video:title>Solución natural para tu azúcar</video:title>
-      <video:description>Video informativo sobre Kettochi - Solución natural para tu azúcar</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/37_doctor_says_problem_solution_kettochi.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/62_myth_bust_myth_debunk_kettochi.jpg</video:thumbnail_loc>
-      <video:title>Mitos sobre la diabetes que debes conocer</video:title>
-      <video:description>Video informativo sobre Kettochi - Mitos sobre la diabetes que debes conocer</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/62_myth_bust_myth_debunk_kettochi.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/69_before_after_transformation_kettochi.jpg</video:thumbnail_loc>
-      <video:title>Cambios reales con hábitos saludables</video:title>
-      <video:description>Video informativo sobre Kettochi - Cambios reales con hábitos saludables</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/69_before_after_transformation_kettochi.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/74_this_not_that_kettochi.jpg</video:thumbnail_loc>
-      <video:title>Esto sí, esto no: azúcar en sangre</video:title>
-      <video:description>Video informativo sobre Kettochi - Esto sí, esto no: azúcar en sangre</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/74_this_not_that_kettochi.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/70_curiosity_gap_education_kettochi.jpg</video:thumbnail_loc>
-      <video:title>El secreto que tu páncreas necesita</video:title>
-      <video:description>Video informativo sobre Kettochi - El secreto que tu páncreas necesita</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/70_curiosity_gap_education_kettochi.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
   </url>
   <url>
     <loc>https://kettochi.co/como-se-toma/</loc>
@@ -176,4 +102,162 @@
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://kettochi.co/para-diabetes-tipo-2/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-prediabetes/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-resistencia-a-la-insulina/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-glucosa-alta/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-trigliceridos-altos/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-colesterol-alto/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-fatiga-por-diabetes/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-neuropatia-diabetica/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-sed-excesiva/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-pie-diabetico/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-sindrome-metabolico/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-antojos-de-dulce/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-sobrepeso-por-diabetes/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-vision-borrosa-diabetes/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-heridas-que-no-cicatrizan/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-retinopatia-diabetica/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-diabetes-gestacional/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-higado-graso/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-presion-alta-diabetes/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-resistencia-insulina/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-obesidad/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-glucosa-alta-en-ayunas/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-hemoglobina-glicosilada-alta/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-hemoglobina-glicosilada/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-hipoglucemia/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/para-cetoacidosis-prevencion/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url><loc>https://kettochi.co/para-prediabetes-juvenil/</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kettochi.co/para-acantosis-nigricans/</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
