@@ -625,6 +625,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://kettochi.co/condiciones/diabetes-y-alimentacion-colombiana/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/diabetes-y-cicatrizacion-heridas/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://kettochi.co/condiciones/diabetes-y-cicatrizacion/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -667,6 +679,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://kettochi.co/condiciones/diabetes-y-ojos-colombia/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://kettochi.co/condiciones/diabetes-y-rinones-co/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -687,6 +705,12 @@
   <url>
     <loc>https://kettochi.co/condiciones/diabetes-y-tiroides/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/diabetes-y-trabajo-colombia/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -805,6 +829,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://kettochi.co/condiciones/neuropatia-pies-manos/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://kettochi.co/condiciones/obesidad-diabetes/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -831,6 +861,12 @@
   <url>
     <loc>https://kettochi.co/condiciones/polineuropatia-diabetica/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/prediabetes-sin-sintomas/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -907,9 +943,51 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://kettochi.co/ingrediente/ajo-negro/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingrediente/berberina/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingrediente/canela-de-ceilan/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingrediente/cromo/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingrediente/gymnema-sylvestre/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://kettochi.co/que-contiene/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingrediente/canela/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kettochi.co/ingrediente/gymnema/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
