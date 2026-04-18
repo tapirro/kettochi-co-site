@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://kettochi.co/opiniones/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -620,7 +620,7 @@
   </url>
   <url>
     <loc>https://kettochi.co/ingredientes/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -644,13 +644,19 @@
   </url>
   <url>
     <loc>https://kettochi.co/condiciones/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://kettochi.co/condiciones/acantosis-nigricans/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/acido-urico-elevado/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -925,6 +931,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://kettochi.co/condiciones/fatiga-metabolica/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://kettochi.co/condiciones/gastroparesia-diabetica/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -939,6 +951,12 @@
   <url>
     <loc>https://kettochi.co/condiciones/glucosa-postprandial/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/gordura-localizada/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -991,8 +1009,20 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://kettochi.co/condiciones/imc-alto/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://kettochi.co/condiciones/infecciones-diabetes/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://kettochi.co/condiciones/inflamacion-cronica/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1159,6 +1189,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://kettochi.co/condiciones/trigliceridos-altos-metabolico/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://kettochi.co/condiciones/trigliceridos-altos/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -1205,41 +1241,5 @@
     <lastmod>2026-04-16</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://kettochi.co/condiciones/inflamacion-cronica/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kettochi.co/condiciones/fatiga-metabolica/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kettochi.co/condiciones/trigliceridos-altos-metabolico/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kettochi.co/condiciones/acido-urico-elevado/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kettochi.co/condiciones/imc-alto/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kettochi.co/condiciones/gordura-localizada/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
