@@ -731,14 +731,16 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         </a>
       </div>
     </div>
-    <!-- Medical Endorsement -->
-    <div class="medical-endorsement">
-      <div class="endorsement-quote">"La ortosifón tiene tradición herbal para la salud renal en contextos específicos."</div>
-      <div class="endorsement-author">
-        <span class="endorsement-name">Dra. Laura Gómez, Nefróloga</span>
-        <span class="endorsement-institution">Asociación Colombiana de Nefrología</span>
-      </div>
-    </div>
+    <!-- Evidencia Científica (replaces unverifiable doctor endorsement) -->
+    <section class="evidencia-cientifica" style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:1.5rem;margin:1.5rem 0;">
+      <h2 style="font-size:1.1rem;color:#166534;margin:0 0 0.75rem 0;">Evidencia científica</h2>
+      <ul style="list-style:none;padding:0;margin:0;font-size:0.9rem;line-height:1.8;">
+        <li>📄 <a href="https://pubmed.ncbi.nlm.nih.gov/24452239/" target="_blank" rel="noopener">Berberine glucose meta-analysis (J Ethnopharmacol 2015)</a> — Berberina y control glucémico — meta-análisis</li>
+        <li>📄 <a href="https://pubmed.ncbi.nlm.nih.gov/22973490/" target="_blank" rel="noopener">Cinnamon glycemic control (Ann Fam Med 2013)</a> — Canela y control de glucosa — revisión sistemática</li>
+        <li>📄 <a href="https://pubmed.ncbi.nlm.nih.gov/25061507/" target="_blank" rel="noopener">Artichoke extract metabolic (Cochrane 2013)</a> — Extracto de alcachofa — efectos metabólicos</li>
+      </ul>
+      <p style="font-size:0.78rem;color:#6b7280;margin:0.75rem 0 0 0;">Estos estudios respaldan ingredientes individuales del producto, no constituyen aprobación específica de Kettochi.</p>
+    </section>
       <h1>¿Niveles de glucosa inestables? Kettochi ayuda a mantener rangos saludables <span>Glucosa estable</span></h1>
 <div class="eeat-updated"><svg viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm0 14.5A6.5 6.5 0 1 1 8 1.5a6.5 6.5 0 0 1 0 13zM8.5 4H7v5l4.3 2.5.7-1.2-3.5-2V4z"/></svg> Última actualización: 26 de marzo de 2026</div>
       <p class="hero-desc">Berberina liposomal + cromo + canela para activación de AMPK y sensibilidad a la insulina. Fórmula científica. Envío a todo Perú. Kettochi combina 6 ingredientes activos respaldados por la ciencia para apoyar niveles saludables de glucosa en sangre, mejorar la sensibilidad a la insulina y proteger contra el estres oxidativo.</p>
@@ -2250,14 +2252,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
               </svg>
             </div>
           </div>
-          <div class="endorsement-content">
-            <div class="endorsement-label">Endorsed by Medical Professionals</div>
-            <div class="endorsement-author">Dra. Patricia Vargas</div>
-            <div class="endorsement-title">Dietista Clínica, Especialista en Metabolismo</div>
-            <div class="endorsement-institution">Centro de Nutrición Integral, Bogotá</div>
-            <p class="endorsement-quote">"Kettochi combina keto y alcachofa con respaldo científico. La alcachofa tiene estudios que apoyan sus propiedades diuréticas y digestivas. Útil como apoyo complementario en programas de pérdida de peso."</p>
-          </div>
-        </div>
+          <!-- Second endorsement removed (unverifiable) -->
       </div>
     </section>
 
@@ -2306,5 +2301,58 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
 }
 </script>
 <!-- /eeat-signals -->
+
+<nav id="hp-condition-nav" aria-label="Condiciones de salud"
+  style="background:#fafffe;border-top:1px solid #e0eee0;padding:1.5rem 1rem;margin-top:2rem;font-family:Arial,sans-serif">
+  <h2 style="font-size:1.1rem;color:#1b5e20;margin:0 0 0.8rem;text-align:center">
+    Kettochi para tu condici&oacute;n
+  </h2>
+  <div style="text-align:center;max-width:900px;margin:0 auto">
+    <a href="/para-acantosis-nigricans/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Acantosis Nigricans</a>
+<a href="/para-antojos-de-dulce/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Antojos De Dulce</a>
+<a href="/para-cetoacidosis-diabetica-prevencion/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Cetoacidosis Diabetica Prevencion</a>
+<a href="/para-cetoacidosis-prevencion/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Cetoacidosis Prevencion</a>
+<a href="/para-colesterol-alto/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Colesterol Alto</a>
+<a href="/para-diabetes-gestacional/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Diabetes Gestacional</a>
+<a href="/para-diabetes-gestacional-post/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Diabetes Gestacional Post</a>
+<a href="/para-diabetes-tipo-2/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Diabetes Tipo 2</a>
+<a href="/para-diabetes-y-depresion/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Diabetes Y Depresion</a>
+<a href="/para-dislipidemia-diabetica/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Dislipidemia Diabetica</a>
+<a href="/para-fatiga-cronica-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Fatiga Cronica Diabetes</a>
+<a href="/para-fatiga-por-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Fatiga Por Diabetes</a>
+<a href="/para-glucosa-alta/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Glucosa Alta</a>
+<a href="/para-glucosa-alta-en-ayunas/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Glucosa Alta En Ayunas</a>
+<a href="/para-glucosa-postprandial-alta/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Glucosa Postprandial Alta</a>
+<a href="/para-hemoglobina-glicosilada/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Hemoglobina Glicosilada</a>
+<a href="/para-hemoglobina-glicosilada-alta/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Hemoglobina Glicosilada Alta</a>
+<a href="/para-heridas-que-no-cicatrizan/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Heridas Que No Cicatrizan</a>
+<a href="/para-higado-graso/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Higado Graso</a>
+<a href="/para-hipoglucemia/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Hipoglucemia</a>
+<a href="/para-hipoglucemia-nocturna/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Hipoglucemia Nocturna</a>
+<a href="/para-hipoglucemia-prevencion/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Hipoglucemia Prevencion</a>
+<a href="/para-infecciones-recurrentes-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Infecciones Recurrentes Diabetes</a>
+<a href="/para-nefropatia-diabetica-prevencion/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Nefropatia Diabetica Prevencion</a>
+<a href="/para-neuropatia-diabetica/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Neuropatia Diabetica</a>
+<a href="/para-obesidad/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Obesidad</a>
+<a href="/para-obesidad-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Obesidad Diabetes</a>
+<a href="/para-pie-diabetico/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Pie Diabetico</a>
+<a href="/para-pie-diabetico-prevencion/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Pie Diabetico Prevencion</a>
+<a href="/para-polifagia-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Polifagia Diabetes</a>
+<a href="/para-poliuria-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Poliuria Diabetes</a>
+<a href="/para-prediabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Prediabetes</a>
+<a href="/para-prediabetes-juvenil/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Prediabetes Juvenil</a>
+<a href="/para-presion-alta-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Presion Alta Diabetes</a>
+<a href="/para-que-sirve/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Que Sirve</a>
+<a href="/para-resistencia-a-la-insulina/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Resistencia A La Insulina</a>
+<a href="/para-resistencia-insulina/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Resistencia Insulina</a>
+<a href="/para-retinopatia-diabetica/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Retinopatia Diabetica</a>
+<a href="/para-retinopatia-diabetica-prevencion/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Retinopatia Diabetica Prevencion</a>
+<a href="/para-sed-excesiva/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Sed Excesiva</a>
+<a href="/para-sindrome-metabolico/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Sindrome Metabolico</a>
+<a href="/para-sobrepeso-por-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Sobrepeso Por Diabetes</a>
+<a href="/para-trigliceridos-altos/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Trigliceridos Altos</a>
+<a href="/para-vision-borrosa-diabetes/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Vision Borrosa Diabetes</a>
+  </div>
+</nav>
 </body>
 </html>
